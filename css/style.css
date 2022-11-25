@@ -12,6 +12,7 @@
 .nav__ul__li__img {
     width: 7rem;
     margin: 0 auto;
+    margin-top: .5rem;
 }
 
 .nav-right__ul__li,
@@ -21,7 +22,7 @@
 
 .nav-right__ul__li a {
     color: #8a5a44;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-family: "Rubik", sans-serif;
     padding: .1rem;
 }
@@ -36,6 +37,31 @@
 }
 
 /* header */
+
+/* footer */
+
+footer {
+    background-color: #c38e70;
+    margin-top: 5rem;
+}
+
+.footer__p {
+    font-family: "Bellota Text", cursive;
+}
+
+.footer__img {
+    width: 7rem;
+}
+
+.fa-brands {
+    color: #8a5a44;
+}
+
+.fa-brands:hover {
+    color: #6b4736;
+}
+
+/* footer */
 
 /* media-querys */
 
