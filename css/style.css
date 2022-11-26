@@ -1,7 +1,3 @@
-svg {
-    margin: -1px;
-}
-
 /* header */
 
 .header {
@@ -19,7 +15,7 @@ svg {
 
 .nav-right__ul__li a {
     color: #8a5a44;
-    font-size: 1.15rem;
+    font-size: 1.26rem;
     font-family: "Rubik", sans-serif;
     padding: .1rem;
 }
@@ -61,18 +57,22 @@ footer {
     background-color: #c38e70;
 }
 
+h1 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 3.4rem;
+    color: #8a5a44;
+}
+
+.bellota-p {
+    font-family: "Bellota Text", cursive;
+}
+
 /* estilos-generales */
 
 /* index */
 
 .index-main__section {
     padding-top: 2rem;
-}
-
-.index-section__h1 {
-    font-family: "PT Sans", sans-serif;
-    font-size: 3.4rem;
-    color: #8a5a44;
 }
 
 .index-section__p {
@@ -86,10 +86,6 @@ footer {
     line-height: 1rem;
 }
 
-.professionals__section__article--p {
-    font-family: "Bellota Text", cursive;
-}
-
 .professionals__section__article--img {
     max-width: 450px;
     height: fit-content;
@@ -98,12 +94,6 @@ footer {
 /* index */
 
 /* sn */
-
-.sn-section__h1 {
-    font-family: "PT Sans", sans-serif;
-    font-size: 3.4rem;
-    color: #8a5a44;
-}
 
 .sn-section__h2 {
     font-family: "PT Sans", sans-serif;
