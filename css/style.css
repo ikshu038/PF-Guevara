@@ -55,11 +55,15 @@ footer {
 
 /* footer */
 
-/* index */
+/* estilos-generales */
 
-.index-main {
+.index-main, .sn-main, .c-main, .mp-main, .e-main {
     background-color: #c38e70;
 }
+
+/* estilos-generales */
+
+/* index */
 
 .index-main__section {
     padding-top: 2rem;
@@ -72,7 +76,6 @@ footer {
 }
 
 .index-section__p {
-    display: block;
     font-family: "PT Sans", sans-serif;
     font-size: 1.6rem;
     color: #8a5a44;
@@ -93,6 +96,40 @@ footer {
 }
 
 /* index */
+
+/* sn */
+
+.sn-section__h1 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 3.4rem;
+    color: #8a5a44;
+}
+
+.sn-section__h2 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.6rem;
+    color: #8a5a44;
+    margin-top: -.5rem;
+}
+
+.sn-section__p {
+    font-family: "Bellota Text", cursive;
+}
+
+.sn-second__section__vision--p, .sn-second__section__mision--p {
+    font-family: "Bellota Text", cursive;
+}
+
+.sn-second__section__vision--h4, .sn-second__section__mision--h4 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 2rem;
+}
+
+.sn-section__img {
+    height: fit-content;
+}
+
+/* sn */
 
 /* media-querys */
 
@@ -133,5 +170,15 @@ footer {
 }
 
 /* media-querys-index */
+
+/* media-querys-sn */
+
+@media (min-width: 1200px) {
+    .sn-main__section__div {
+        padding-top: 5rem;
+    }
+}
+
+/* media-querys-sn */
 
 /* media-querys */
