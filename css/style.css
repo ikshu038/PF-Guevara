@@ -1,3 +1,7 @@
+img {
+    height: fit-content;
+}
+
 /* header */
 
 .header {
@@ -53,7 +57,11 @@ footer {
 
 /* estilos-generales */
 
-.index-main, .sn-main, .c-main, .mp-main, .e-main {
+.index-main,
+.sn-main,
+.c-main,
+.mp-main,
+.e-main {
     background-color: #c38e70;
 }
 
@@ -88,7 +96,6 @@ h1 {
 
 .professionals__section__article--img {
     max-width: 450px;
-    height: fit-content;
 }
 
 /* index */
@@ -106,20 +113,32 @@ h1 {
     font-family: "Bellota Text", cursive;
 }
 
-.sn-second__section__vision--p, .sn-second__section__mision--p {
+.sn-second__section__vision--p,
+.sn-second__section__mision--p {
     font-family: "Bellota Text", cursive;
 }
 
-.sn-second__section__vision--h4, .sn-second__section__mision--h4 {
+.sn-second__section__vision--h4,
+.sn-second__section__mision--h4 {
     font-family: "PT Sans", sans-serif;
     font-size: 2rem;
 }
 
-.sn-section__img {
-    height: fit-content;
+/* sn */
+
+/* mp */
+
+.mp-second__section__coffe__article__img,
+.mp-second__section__milk__article__img {
+    max-width: 450px;
 }
 
-/* sn */
+.mp-main__section__title__img {
+    width: 3rem;
+}
+
+
+/* mp */
 
 /* media-querys */
 
@@ -149,7 +168,7 @@ h1 {
     .index-main__section {
         padding-top: 6rem;
     }
-    
+
     .index-section__h1 {
         font-size: 3rem;
     }
@@ -164,7 +183,7 @@ h1 {
 /* media-querys-sn */
 
 @media (min-width: 1200px) {
-    .sn-main__section__div {
+    .sn-main__section__div, .mp-main__section__div {
         padding-top: 5rem;
     }
 }
