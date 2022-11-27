@@ -65,6 +65,14 @@ footer {
     background-color: #c38e70;
 }
 
+.index-main__section,
+.sn-main__section__div,
+.mp-main__section__div,
+.e-main__section__div,
+.c-main__section__div {
+    padding-top: 3rem;
+}
+
 h1 {
     font-family: "PT Sans", sans-serif;
     font-size: 3.4rem;
@@ -78,10 +86,6 @@ h1 {
 /* estilos-generales */
 
 /* index */
-
-.index-main__section {
-    padding-top: 2rem;
-}
 
 .index-section__p {
     font-family: "PT Sans", sans-serif;
@@ -164,30 +168,34 @@ h1 {
 
 /* media-querys-index */
 
-@media (min-width: 1400px) {
-    .index-main__section {
-        padding-top: 6rem;
-    }
-
-    .index-section__h1 {
-        font-size: 3rem;
-    }
-
-    .index-section__p {
-        font-size: 1.7rem;
-    }
+.index-section__p {
+    font-size: 1.7rem;
 }
 
 /* media-querys-index */
 
-/* media-querys-sn */
+/* media-querys-generales */
 
 @media (min-width: 1200px) {
-    .sn-main__section__div, .mp-main__section__div {
-        padding-top: 5rem;
+    .index-main__section,
+    .sn-main__section__div,
+    .mp-main__section__div,
+    .e-main__section__div,
+    .c-main__section__div {
+        padding-top: 6rem;
     }
 }
 
-/* media-querys-sn */
+@media (min-width: 1400px) {
+    .index-main__section,
+    .sn-main__section__div,
+    .mp-main__section__div,
+    .e-main__section__div,
+    .c-main__section__div {
+        padding-top: 8rem;
+    }
+}
+
+/* media-querys-generales */
 
 /* media-querys */
