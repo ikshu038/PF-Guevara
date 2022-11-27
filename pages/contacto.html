@@ -69,10 +69,10 @@
     <main class="c-main">
         <div class="container">
             <div class="c-main__section__div">
-                <section class="c-main__section">
-                    <div class="c-main__section__text">
-                        <h1 class="c-main__section__text__h1 fw-bold text-center">Contactanos</h1>
-                        <p class="c-main__section__text__p">
+                <section class="c-main__section row justify-content-center align-items-center">
+                    <div class="c-main__section__text col-xl-6">
+                        <h1 class="c-main__section__text__h1 fw-bold text-center text-xl-start">Contactanos</h1>
+                        <p class="c-main__section__text__p bellota-p text-center fs-5 text-xl-start">
                             Entendemos que la comunicacion es esencial, por eso abrimos todos
                             los medios posibles para poder comunicarnos con ustedes, lo pueden
                             hacer tanto de manera presencial, yendo a nuestro cafe, o sino
@@ -81,7 +81,7 @@
                             estamos a su disposicion
                         </p>
                     </div>
-                    <img src="../images/contact-img.png" alt="Telefono" class="c-main__section__img" />
+                    <img src="../images/contact-img.png" alt="Telefono" class="c-main__section__img d-none d-xl-inline col-xl-3 offset-xl-3" />
                 </section>
             </div>
         </div>
@@ -98,47 +98,46 @@
     <section>
         <div class="container">
             <div class="contact">
-                <h3 class="contact__h3">Contactanos!</h3>
-                <p class="professionals__section__p">――</p>
+                <h3 class="contact__h3 text-center pt-5">CONTACTANOS</h3>
+                <p class="professionals__section__p text-center fs-1 pb-3">― ―</p>
                 <div class="contact__ways">
-                    <form class="contact__form">
-                        <div class="contact__form__name-and-surname">
-                            <div class="contact__form__nombre">
-                                <p class="contact__form__nombre__p">Nombre</p>
-                                <input type="text" name="nombre" class="contact__form__input--nombre">
-                            </div>
-                            <div class="contact__form__apellido">
-                                <p class="contact__form__apellido__p">Apellido</p>
-                                <input type="text" name="apellido" class="contact__form__input--apellido">
-                            </div>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Nombre</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Santiago Guevara">
                         </div>
-                        <div class="sexo">
-                            <div class="contact__form__sexo--option-1">
-                                <p class="contact__form__sexo--option-1__p">Hombre</p>
-                                <input type="radio" name="sexo" value="hombre"
-                                    class="contact__form__sexo--option-1__input">
-                            </div>
-                            <div class="contact__form__sexo--option-2">
-                                <p class="contact__form__sexo--option-2__p">Mujer</p>
-                                <input type="radio" name="sexo" value="mujer"
-                                    class="contact__form__sexo--option-2__input">
-                            </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Email</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="hola123@gmail.com">
                         </div>
-                        <div>
-                            <p class="select__p">Sobre que cafe queres recibir informacion?</p>
-                            <select class="select">
-                                <option value="Maka">Maka</option>
-                                <option value="Java">Java</option>
-                                <option value="Kenya">Kenya</option>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Olavarria">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Direccion</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Moreno 1234">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputState" class="form-label">Recibir informacion sobre:</label>
+                            <select id="inputState" class="form-select">
+                                <option>Mas cafes</option>
+                                <option>Sucursales</option>
+                                <option>Sucursales</option>
                             </select>
                         </div>
-                        <textarea name="informacion-adicional"></textarea> <br>
-                        <input type="submit">
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Verificar 
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
                     </form>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.8938626193444!2d-60.32366398411909!3d-36.89288728968402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959445c672d5af69%3A0x98e0d7690e9d356e!2sTasca!5e0!3m2!1ses!2sar!4v1667177408260!5m2!1ses!2sar"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
