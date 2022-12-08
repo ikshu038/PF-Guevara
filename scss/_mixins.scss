@@ -1,0 +1,5 @@
+@mixin sub-title ($font-size) {
+    font-family: "PT Sans", sans-serif;
+    font-size: $font-size;
+    color: $primary-text-color;
+}

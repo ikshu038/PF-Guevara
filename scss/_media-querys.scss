@@ -1,0 +1,34 @@
+@media (min-width: 992px) {
+    .nav-right__ul__li {
+        margin: 0 .5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .index-main__section,
+    .sn-main__section__div,
+    .mp-main__section__div,
+    .e-main__section__div,
+    .c-main__section__div {
+        padding-top: 6rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .index-main__section,
+    .sn-main__section__div,
+    .mp-main__section__div,
+    .e-main__section__div,
+    .c-main__section__div {
+        padding-top: 8rem;
+    }
+
+    .navbar-links {
+        font-size: 1.33rem;
+    }
+
+    .nav__ul__li__img {
+        width: 7rem;
+    }
+}
+

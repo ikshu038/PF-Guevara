@@ -1,0 +1,30 @@
+.professionals__section__p {
+    color: $back-color;
+    line-height: 1rem;
+}
+
+.liliana:hover {
+    color: #f00;
+}
+
+.mp-main__section__title__img {
+    width: 3rem;
+}
+
+.sn-second__section__vision--h4,
+.sn-second__section__mision--h4 {
+    font-family: $title-family;
+    font-size: 2rem;
+}
+
+.sn-section__h2 {
+    margin-top: -.7rem;
+}
+
+.index-section__p  {
+    @include sub-title (1.7rem)
+}
+
+.sn-section__h2  {
+    @include sub-title (1.6rem)
+}

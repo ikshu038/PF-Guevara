@@ -1,0 +1,27 @@
+img {
+    height: fit-content;
+}
+
+.index-main,
+.sn-main,
+.c-main,
+.mp-main,
+.e-main {
+    background-color: $back-color;
+}
+
+.mp-second__section__coffe__article__img,
+.mp-second__section__milk__article__img,
+.professionals__section__article--img {
+    max-width: 450px;
+}
+
+h1 {
+    font-family: $title-family;
+    font-size: $title-size;
+    color: $primary-text-color;
+}
+
+.bellota-p {
+    font-family: $paragraph-family;
+}

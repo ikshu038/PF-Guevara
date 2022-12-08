@@ -1,0 +1,21 @@
+.footer {
+    background-color: $back-color;
+    margin-top: 5rem;
+
+    &__p {
+        @extend .bellota-p
+    }
+
+    &__img {
+        width: $logo-size;
+    }
+
+    .fa-brands {
+        color: $primary-text-color;
+    
+        &:hover {
+            color: $hover-color;
+        }
+    }
+}
+
